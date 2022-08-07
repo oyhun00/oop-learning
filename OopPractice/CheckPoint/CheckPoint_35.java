@@ -22,6 +22,6 @@ public class CheckPoint_35 {
 
   public class DishWasher extends HomeAppliancies {
     public void turnOn() {};
-    public void turnOff() {};
+    public void turnOff() {}; 
   }
 }
