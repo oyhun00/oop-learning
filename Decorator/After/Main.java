@@ -11,7 +11,9 @@ public class Main {
     Display roadWithTrafficDisplay = new TrafficDecorator(new RoadDisplay());
     roadWithTrafficDisplay.draw();
 
-    Display roadWithLaneAndTrafficDisplay = new LaneDecorator(new TrafficDecorator(new RoadDisplay()));
+    Display roadWithLaneAndTrafficDisplay = new RoadDisplay();
+    roadWithLaneAndTrafficDisplay = new TrafficDecorator(roadWithLaneAndTrafficDisplay);
+    roadWithLaneAndTrafficDisplay = new LaneDecorator(roadWithLaneAndTrafficDisplay);
     roadWithLaneAndTrafficDisplay.draw();
   }
 }

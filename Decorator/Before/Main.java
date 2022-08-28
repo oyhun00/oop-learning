@@ -8,7 +8,7 @@ public class Main {
     RoadDisplay roadWithDisplay = new RoadDisplayWithLane();
     roadWithDisplay.draw();
 
-    RoadDisplay roadDisplayWithTraffic = new RoadDisplayWithTraffic();
-    roadDisplayWithTraffic.draw();
+    // RoadDisplay roadDisplayWithTraffic = new RoadDisplayWithTraffic();
+    // roadDisplayWithTraffic.draw();
   }
 }

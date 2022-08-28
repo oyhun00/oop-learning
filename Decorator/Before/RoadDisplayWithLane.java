@@ -7,9 +7,6 @@ public class RoadDisplayWithLane extends RoadDisplay {
   }
 
   private void drawLane() {
-    System.out.println("==========================");
-    System.out.println("Lane Display");
-    System.out.println("==========================");
-    System.out.println("");
+    System.out.println("\tLane Display");
   }
 }
